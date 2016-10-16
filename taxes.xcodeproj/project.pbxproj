@@ -7,15 +7,147 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B5580AA1D46A8A900586BA3 /* 13819600_1192390774139031_495527160_n.png.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B5580A91D46A8A900586BA3 /* 13819600_1192390774139031_495527160_n.png.jpeg */; };
+		5B5580AE1D46A8F200586BA3 /* 13823682_1192390894139019_1718335577_n.png.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B5580AD1D46A8F200586BA3 /* 13823682_1192390894139019_1718335577_n.png.jpeg */; };
+		5B5580B01D46B6A200586BA3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5580AF1D46B6A200586BA3 /* User.swift */; };
+		5B6381FB1D4D3A2800C41CF0 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6381FA1D4D3A2800C41CF0 /* Configuration.swift */; };
+		5B7B01701D48129D008A7C0B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B016F1D48129D008A7C0B /* MenuViewController.swift */; };
+		5B8C9BB31D5017D700E6D0D3 /* LineChartSejourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8C9BB21D5017D700E6D0D3 /* LineChartSejourVC.swift */; };
+		5B99D3F61D747AEA003B3329 /* TaxeBoissonAnnuellePdf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99D3F51D747AEA003B3329 /* TaxeBoissonAnnuellePdf.swift */; };
+		5B99D3F81D747BD1003B3329 /* TaxeBoissonAnnuellePdfViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99D3F71D747BD1003B3329 /* TaxeBoissonAnnuellePdfViewer.swift */; };
+		5B9BE94C1D48E385001D4CDC /* Activite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE94B1D48E385001D4CDC /* Activite.swift */; };
+		5B9BE94E1D48E3BA001D4CDC /* Categorie37.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE94D1D48E3BA001D4CDC /* Categorie37.swift */; };
+		5B9BE9501D48E3EC001D4CDC /* CategorieHabitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE94F1D48E3EC001D4CDC /* CategorieHabitation.swift */; };
+		5B9BE9521D48E41B001D4CDC /* CategorieSejour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE9511D48E41B001D4CDC /* CategorieSejour.swift */; };
+		5B9BE9541D48E454001D4CDC /* CategorieTauxTaxe38.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE9531D48E454001D4CDC /* CategorieTauxTaxe38.swift */; };
+		5B9BE9561D48E47F001D4CDC /* Commune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE9551D48E47F001D4CDC /* Commune.swift */; };
+		5B9BE9581D48E4AD001D4CDC /* InfoNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE9571D48E4AD001D4CDC /* InfoNotification.swift */; };
+		5B9BE95A1D48E4E0001D4CDC /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE9591D48E4E0001D4CDC /* Locale.swift */; };
+		5B9BE95C1D48E511001D4CDC /* Locale38Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE95B1D48E511001D4CDC /* Locale38Item.swift */; };
+		5B9BE95E1D48E53C001D4CDC /* Quartier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE95D1D48E53C001D4CDC /* Quartier.swift */; };
+		5B9BE9601D48E568001D4CDC /* Redevable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE95F1D48E568001D4CDC /* Redevable.swift */; };
+		5B9BE9621D48E594001D4CDC /* Rue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE9611D48E594001D4CDC /* Rue.swift */; };
+		5B9BE9641D48E5C0001D4CDC /* Secteure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE9631D48E5C0001D4CDC /* Secteure.swift */; };
+		5B9BE9661D48E5F3001D4CDC /* Taxe38Anuelle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE9651D48E5F3001D4CDC /* Taxe38Anuelle.swift */; };
+		5B9BE9681D48E627001D4CDC /* Taxe38Trimistrielle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE9671D48E627001D4CDC /* Taxe38Trimistrielle.swift */; };
+		5B9BE96A1D48E65C001D4CDC /* Taxe38TrimistrielleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE9691D48E65C001D4CDC /* Taxe38TrimistrielleItem.swift */; };
+		5B9BE96C1D48E694001D4CDC /* TaxeBoisonAnuelle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE96B1D48E694001D4CDC /* TaxeBoisonAnuelle.swift */; };
+		5B9BE96E1D48E6CE001D4CDC /* TaxeBoisonTrimistrielle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE96D1D48E6CE001D4CDC /* TaxeBoisonTrimistrielle.swift */; };
+		5B9BE9701D48E700001D4CDC /* TaxeSejourAnuelle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE96F1D48E700001D4CDC /* TaxeSejourAnuelle.swift */; };
+		5B9BE9721D48E72F001D4CDC /* TaxeSejourTrimistrielle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE9711D48E72F001D4CDC /* TaxeSejourTrimistrielle.swift */; };
+		5B9BE9741D48E75C001D4CDC /* Ville.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE9731D48E75C001D4CDC /* Ville.swift */; };
+		5B9BE9761D48E793001D4CDC /* Zone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE9751D48E793001D4CDC /* Zone.swift */; };
+		5B9BE9781D48F6C8001D4CDC /* Taxe38TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE9771D48F6C8001D4CDC /* Taxe38TableViewController.swift */; };
+		5B9BE97A1D48F762001D4CDC /* Taxe38DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE9791D48F762001D4CDC /* Taxe38DetailTableViewController.swift */; };
+		5B9BE97C1D48F7DF001D4CDC /* Taxe38SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE97B1D48F7DF001D4CDC /* Taxe38SearchViewController.swift */; };
+		5B9BE97E1D48F83F001D4CDC /* Taxe38TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE97D1D48F83F001D4CDC /* Taxe38TableViewCell.swift */; };
+		5B9BE9801D48F885001D4CDC /* Taxe38DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BE97F1D48F885001D4CDC /* Taxe38DetailTableViewCell.swift */; };
+		5BA6ECED1D7B492E002EDB4D /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA6ECEC1D7B492E002EDB4D /* user.png */; };
+		5BA6ECEF1D7B4939002EDB4D /* maroc_png.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA6ECEE1D7B4939002EDB4D /* maroc_png.png */; };
+		5BC11D6F1D512E5F00175D49 /* BarChartSejourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC11D6E1D512E5F00175D49 /* BarChartSejourVC.swift */; };
 		5BC653881D272A84007B16E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC653871D272A84007B16E3 /* AppDelegate.swift */; };
 		5BC6538A1D272A84007B16E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC653891D272A84007B16E3 /* ViewController.swift */; };
 		5BC6538D1D272A84007B16E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC6538B1D272A84007B16E3 /* Main.storyboard */; };
 		5BC653901D272A84007B16E3 /* taxes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6538E1D272A84007B16E3 /* taxes.xcdatamodeld */; };
 		5BC653921D272A84007B16E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC653911D272A84007B16E3 /* Assets.xcassets */; };
 		5BC653951D272A84007B16E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC653931D272A84007B16E3 /* LaunchScreen.storyboard */; };
+		5BF020AD1D513D9500029694 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC11D621D50BB7600175D49 /* Charts.framework */; };
+		5BF020AE1D513D9500029694 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC11D621D50BB7600175D49 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E100F99B55187C7151A80CF7 /* Pods_taxes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F778FC1B68CDF95598BAB3FE /* Pods_taxes.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5BC11D611D50BB7600175D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC11D5A1D50BB6F00175D49 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		5BC11D631D50BB7600175D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC11D5A1D50BB6F00175D49 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		5BC11D651D50BB7600175D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC11D5A1D50BB6F00175D49 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65B3F5BF1C7370BE000983D0;
+			remoteInfo = "Charts-OSX";
+		};
+		5BC11D671D50BB7600175D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC11D5A1D50BB6F00175D49 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		5BF020AF1D513D9600029694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC11D5A1D50BB6F00175D49 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5BF020B11D513D9600029694 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5BF020AE1D513D9500029694 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5B5580A91D46A8A900586BA3 /* 13819600_1192390774139031_495527160_n.png.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13819600_1192390774139031_495527160_n.png.jpeg; sourceTree = "<group>"; };
+		5B5580AD1D46A8F200586BA3 /* 13823682_1192390894139019_1718335577_n.png.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13823682_1192390894139019_1718335577_n.png.jpeg; sourceTree = "<group>"; };
+		5B5580AF1D46B6A200586BA3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5B6381FA1D4D3A2800C41CF0 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		5B7B016F1D48129D008A7C0B /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		5B8C9BB21D5017D700E6D0D3 /* LineChartSejourVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartSejourVC.swift; sourceTree = "<group>"; };
+		5B99D3F51D747AEA003B3329 /* TaxeBoissonAnnuellePdf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxeBoissonAnnuellePdf.swift; sourceTree = "<group>"; };
+		5B99D3F71D747BD1003B3329 /* TaxeBoissonAnnuellePdfViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxeBoissonAnnuellePdfViewer.swift; sourceTree = "<group>"; };
+		5B9BE94B1D48E385001D4CDC /* Activite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activite.swift; sourceTree = "<group>"; };
+		5B9BE94D1D48E3BA001D4CDC /* Categorie37.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categorie37.swift; sourceTree = "<group>"; };
+		5B9BE94F1D48E3EC001D4CDC /* CategorieHabitation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorieHabitation.swift; sourceTree = "<group>"; };
+		5B9BE9511D48E41B001D4CDC /* CategorieSejour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorieSejour.swift; sourceTree = "<group>"; };
+		5B9BE9531D48E454001D4CDC /* CategorieTauxTaxe38.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorieTauxTaxe38.swift; sourceTree = "<group>"; };
+		5B9BE9551D48E47F001D4CDC /* Commune.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commune.swift; sourceTree = "<group>"; };
+		5B9BE9571D48E4AD001D4CDC /* InfoNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoNotification.swift; sourceTree = "<group>"; };
+		5B9BE9591D48E4E0001D4CDC /* Locale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locale.swift; sourceTree = "<group>"; };
+		5B9BE95B1D48E511001D4CDC /* Locale38Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locale38Item.swift; sourceTree = "<group>"; };
+		5B9BE95D1D48E53C001D4CDC /* Quartier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quartier.swift; sourceTree = "<group>"; };
+		5B9BE95F1D48E568001D4CDC /* Redevable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Redevable.swift; sourceTree = "<group>"; };
+		5B9BE9611D48E594001D4CDC /* Rue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rue.swift; sourceTree = "<group>"; };
+		5B9BE9631D48E5C0001D4CDC /* Secteure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secteure.swift; sourceTree = "<group>"; };
+		5B9BE9651D48E5F3001D4CDC /* Taxe38Anuelle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taxe38Anuelle.swift; sourceTree = "<group>"; };
+		5B9BE9671D48E627001D4CDC /* Taxe38Trimistrielle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taxe38Trimistrielle.swift; sourceTree = "<group>"; };
+		5B9BE9691D48E65C001D4CDC /* Taxe38TrimistrielleItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taxe38TrimistrielleItem.swift; sourceTree = "<group>"; };
+		5B9BE96B1D48E694001D4CDC /* TaxeBoisonAnuelle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxeBoisonAnuelle.swift; sourceTree = "<group>"; };
+		5B9BE96D1D48E6CE001D4CDC /* TaxeBoisonTrimistrielle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxeBoisonTrimistrielle.swift; sourceTree = "<group>"; };
+		5B9BE96F1D48E700001D4CDC /* TaxeSejourAnuelle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxeSejourAnuelle.swift; sourceTree = "<group>"; };
+		5B9BE9711D48E72F001D4CDC /* TaxeSejourTrimistrielle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxeSejourTrimistrielle.swift; sourceTree = "<group>"; };
+		5B9BE9731D48E75C001D4CDC /* Ville.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ville.swift; sourceTree = "<group>"; };
+		5B9BE9751D48E793001D4CDC /* Zone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zone.swift; sourceTree = "<group>"; };
+		5B9BE9771D48F6C8001D4CDC /* Taxe38TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taxe38TableViewController.swift; sourceTree = "<group>"; };
+		5B9BE9791D48F762001D4CDC /* Taxe38DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taxe38DetailTableViewController.swift; sourceTree = "<group>"; };
+		5B9BE97B1D48F7DF001D4CDC /* Taxe38SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taxe38SearchViewController.swift; sourceTree = "<group>"; };
+		5B9BE97D1D48F83F001D4CDC /* Taxe38TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taxe38TableViewCell.swift; sourceTree = "<group>"; };
+		5B9BE97F1D48F885001D4CDC /* Taxe38DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taxe38DetailTableViewCell.swift; sourceTree = "<group>"; };
+		5BA6ECEC1D7B492E002EDB4D /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		5BA6ECEE1D7B4939002EDB4D /* maroc_png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maroc_png.png; sourceTree = "<group>"; };
+		5BC11D5A1D50BB6F00175D49 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = "<group>"; };
+		5BC11D6E1D512E5F00175D49 /* BarChartSejourVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartSejourVC.swift; sourceTree = "<group>"; };
 		5BC653841D272A84007B16E3 /* taxes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taxes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC653871D272A84007B16E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BC653891D272A84007B16E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +156,9 @@
 		5BC653911D272A84007B16E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BC653941D272A84007B16E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BC653961D272A84007B16E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F390D82023CD8A466C9D3935 /* Pods-taxes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taxes/Pods-taxes.debug.xcconfig"; sourceTree = "<group>"; };
+		F5690202014BA7750DF140F5 /* Pods-taxes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxes.release.xcconfig"; path = "Pods/Target Support Files/Pods-taxes/Pods-taxes.release.xcconfig"; sourceTree = "<group>"; };
+		F778FC1B68CDF95598BAB3FE /* Pods_taxes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taxes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +166,101 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF020AD1D513D9500029694 /* Charts.framework in Frameworks */,
+				E100F99B55187C7151A80CF7 /* Pods_taxes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B5580B11D46B6E300586BA3 /* bean */ = {
+			isa = PBXGroup;
+			children = (
+				5B5580AF1D46B6A200586BA3 /* User.swift */,
+				5B9BE94B1D48E385001D4CDC /* Activite.swift */,
+				5B9BE94D1D48E3BA001D4CDC /* Categorie37.swift */,
+				5B9BE94F1D48E3EC001D4CDC /* CategorieHabitation.swift */,
+				5B9BE9511D48E41B001D4CDC /* CategorieSejour.swift */,
+				5B9BE9531D48E454001D4CDC /* CategorieTauxTaxe38.swift */,
+				5B9BE9551D48E47F001D4CDC /* Commune.swift */,
+				5B9BE9571D48E4AD001D4CDC /* InfoNotification.swift */,
+				5B9BE9591D48E4E0001D4CDC /* Locale.swift */,
+				5B9BE95B1D48E511001D4CDC /* Locale38Item.swift */,
+				5B9BE95D1D48E53C001D4CDC /* Quartier.swift */,
+				5B9BE95F1D48E568001D4CDC /* Redevable.swift */,
+				5B9BE9611D48E594001D4CDC /* Rue.swift */,
+				5B9BE9631D48E5C0001D4CDC /* Secteure.swift */,
+				5B9BE9651D48E5F3001D4CDC /* Taxe38Anuelle.swift */,
+				5B9BE9671D48E627001D4CDC /* Taxe38Trimistrielle.swift */,
+				5B9BE9691D48E65C001D4CDC /* Taxe38TrimistrielleItem.swift */,
+				5B9BE96B1D48E694001D4CDC /* TaxeBoisonAnuelle.swift */,
+				5B9BE96D1D48E6CE001D4CDC /* TaxeBoisonTrimistrielle.swift */,
+				5B9BE96F1D48E700001D4CDC /* TaxeSejourAnuelle.swift */,
+				5B9BE9711D48E72F001D4CDC /* TaxeSejourTrimistrielle.swift */,
+				5B9BE9731D48E75C001D4CDC /* Ville.swift */,
+				5B9BE9751D48E793001D4CDC /* Zone.swift */,
+			);
+			name = bean;
+			sourceTree = "<group>";
+		};
+		5B6381F91D4D39D300C41CF0 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				5B6381FA1D4D3A2800C41CF0 /* Configuration.swift */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		5B8C9BB11D50175D00E6D0D3 /* taxeSejour */ = {
+			isa = PBXGroup;
+			children = (
+				5B8C9BB21D5017D700E6D0D3 /* LineChartSejourVC.swift */,
+				5BC11D6E1D512E5F00175D49 /* BarChartSejourVC.swift */,
+			);
+			name = taxeSejour;
+			sourceTree = "<group>";
+		};
+		5B99D3F41D747A85003B3329 /* taxeBoisson */ = {
+			isa = PBXGroup;
+			children = (
+				5B99D3F51D747AEA003B3329 /* TaxeBoissonAnnuellePdf.swift */,
+				5B99D3F71D747BD1003B3329 /* TaxeBoissonAnnuellePdfViewer.swift */,
+			);
+			name = taxeBoisson;
+			sourceTree = "<group>";
+		};
+		5B9BE9811D48F8A0001D4CDC /* taxe38 */ = {
+			isa = PBXGroup;
+			children = (
+				5B9BE9771D48F6C8001D4CDC /* Taxe38TableViewController.swift */,
+				5B9BE9791D48F762001D4CDC /* Taxe38DetailTableViewController.swift */,
+				5B9BE97B1D48F7DF001D4CDC /* Taxe38SearchViewController.swift */,
+				5B9BE97D1D48F83F001D4CDC /* Taxe38TableViewCell.swift */,
+				5B9BE97F1D48F885001D4CDC /* Taxe38DetailTableViewCell.swift */,
+			);
+			name = taxe38;
+			sourceTree = "<group>";
+		};
+		5BC11D5B1D50BB6F00175D49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BC11D621D50BB7600175D49 /* Charts.framework */,
+				5BC11D641D50BB7600175D49 /* Charts.framework */,
+				5BC11D661D50BB7600175D49 /* Charts.framework */,
+				5BC11D681D50BB7600175D49 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5BC6537B1D272A83007B16E3 = {
 			isa = PBXGroup;
 			children = (
+				5BC11D5A1D50BB6F00175D49 /* Charts.xcodeproj */,
 				5BC653861D272A84007B16E3 /* taxes */,
 				5BC653851D272A84007B16E3 /* Products */,
+				B00E389CD1460B2C066ACC8F /* Pods */,
+				DD0126EB96A678AD950ADDB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +277,40 @@
 			children = (
 				5BC653871D272A84007B16E3 /* AppDelegate.swift */,
 				5BC653891D272A84007B16E3 /* ViewController.swift */,
+				5B7B016F1D48129D008A7C0B /* MenuViewController.swift */,
 				5BC6538B1D272A84007B16E3 /* Main.storyboard */,
 				5BC653911D272A84007B16E3 /* Assets.xcassets */,
 				5BC653931D272A84007B16E3 /* LaunchScreen.storyboard */,
 				5BC653961D272A84007B16E3 /* Info.plist */,
 				5BC6538E1D272A84007B16E3 /* taxes.xcdatamodeld */,
+				5B99D3F41D747A85003B3329 /* taxeBoisson */,
+				5B5580B11D46B6E300586BA3 /* bean */,
+				5B8C9BB11D50175D00E6D0D3 /* taxeSejour */,
+				5B9BE9811D48F8A0001D4CDC /* taxe38 */,
+				5B6381F91D4D39D300C41CF0 /* config */,
+				5BA6ECEE1D7B4939002EDB4D /* maroc_png.png */,
+				5BA6ECEC1D7B492E002EDB4D /* user.png */,
+				5B5580A91D46A8A900586BA3 /* 13819600_1192390774139031_495527160_n.png.jpeg */,
+				5B5580AD1D46A8F200586BA3 /* 13823682_1192390894139019_1718335577_n.png.jpeg */,
 			);
 			path = taxes;
+			sourceTree = "<group>";
+		};
+		B00E389CD1460B2C066ACC8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F390D82023CD8A466C9D3935 /* Pods-taxes.debug.xcconfig */,
+				F5690202014BA7750DF140F5 /* Pods-taxes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD0126EB96A678AD950ADDB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F778FC1B68CDF95598BAB3FE /* Pods_taxes.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,13 +320,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BC653991D272A84007B16E3 /* Build configuration list for PBXNativeTarget "taxes" */;
 			buildPhases = (
+				25E3F59F49A047F0E71A1E3C /* [CP] Check Pods Manifest.lock */,
 				5BC653801D272A83007B16E3 /* Sources */,
 				5BC653811D272A83007B16E3 /* Frameworks */,
 				5BC653821D272A83007B16E3 /* Resources */,
+				5BF020B11D513D9600029694 /* Embed Frameworks */,
+				E0AD5118C5CA7E699A5DE8A0 /* [CP] Embed Pods Frameworks */,
+				C3DD98E60F15B0E27C08D2A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5BF020B01D513D9600029694 /* PBXTargetDependency */,
 			);
 			name = taxes;
 			productName = taxes;
@@ -113,12 +364,49 @@
 			mainGroup = 5BC6537B1D272A83007B16E3;
 			productRefGroup = 5BC653851D272A84007B16E3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5BC11D5B1D50BB6F00175D49 /* Products */;
+					ProjectRef = 5BC11D5A1D50BB6F00175D49 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5BC653831D272A83007B16E3 /* taxes */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5BC11D621D50BB7600175D49 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 5BC11D611D50BB7600175D49 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5BC11D641D50BB7600175D49 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 5BC11D631D50BB7600175D49 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5BC11D661D50BB7600175D49 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 5BC11D651D50BB7600175D49 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5BC11D681D50BB7600175D49 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 5BC11D671D50BB7600175D49 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5BC653821D272A83007B16E3 /* Resources */ = {
@@ -127,24 +415,118 @@
 			files = (
 				5BC653951D272A84007B16E3 /* LaunchScreen.storyboard in Resources */,
 				5BC653921D272A84007B16E3 /* Assets.xcassets in Resources */,
+				5BA6ECED1D7B492E002EDB4D /* user.png in Resources */,
 				5BC6538D1D272A84007B16E3 /* Main.storyboard in Resources */,
+				5B5580AE1D46A8F200586BA3 /* 13823682_1192390894139019_1718335577_n.png.jpeg in Resources */,
+				5B5580AA1D46A8A900586BA3 /* 13819600_1192390774139031_495527160_n.png.jpeg in Resources */,
+				5BA6ECEF1D7B4939002EDB4D /* maroc_png.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25E3F59F49A047F0E71A1E3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3DD98E60F15B0E27C08D2A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taxes/Pods-taxes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0AD5118C5CA7E699A5DE8A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taxes/Pods-taxes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5BC653801D272A83007B16E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B9BE9581D48E4AD001D4CDC /* InfoNotification.swift in Sources */,
+				5BC11D6F1D512E5F00175D49 /* BarChartSejourVC.swift in Sources */,
+				5B9BE96A1D48E65C001D4CDC /* Taxe38TrimistrielleItem.swift in Sources */,
+				5B9BE9701D48E700001D4CDC /* TaxeSejourAnuelle.swift in Sources */,
+				5B9BE9541D48E454001D4CDC /* CategorieTauxTaxe38.swift in Sources */,
+				5B9BE9741D48E75C001D4CDC /* Ville.swift in Sources */,
+				5B9BE9521D48E41B001D4CDC /* CategorieSejour.swift in Sources */,
+				5B9BE9721D48E72F001D4CDC /* TaxeSejourTrimistrielle.swift in Sources */,
+				5B9BE95C1D48E511001D4CDC /* Locale38Item.swift in Sources */,
+				5B9BE9601D48E568001D4CDC /* Redevable.swift in Sources */,
+				5B5580B01D46B6A200586BA3 /* User.swift in Sources */,
+				5B9BE97E1D48F83F001D4CDC /* Taxe38TableViewCell.swift in Sources */,
+				5B9BE9681D48E627001D4CDC /* Taxe38Trimistrielle.swift in Sources */,
+				5B7B01701D48129D008A7C0B /* MenuViewController.swift in Sources */,
+				5B9BE9801D48F885001D4CDC /* Taxe38DetailTableViewCell.swift in Sources */,
+				5B9BE95E1D48E53C001D4CDC /* Quartier.swift in Sources */,
+				5B99D3F61D747AEA003B3329 /* TaxeBoissonAnnuellePdf.swift in Sources */,
+				5B9BE9501D48E3EC001D4CDC /* CategorieHabitation.swift in Sources */,
+				5B9BE9781D48F6C8001D4CDC /* Taxe38TableViewController.swift in Sources */,
+				5B9BE9641D48E5C0001D4CDC /* Secteure.swift in Sources */,
+				5B9BE97C1D48F7DF001D4CDC /* Taxe38SearchViewController.swift in Sources */,
+				5B9BE9661D48E5F3001D4CDC /* Taxe38Anuelle.swift in Sources */,
 				5BC653901D272A84007B16E3 /* taxes.xcdatamodeld in Sources */,
+				5B6381FB1D4D3A2800C41CF0 /* Configuration.swift in Sources */,
+				5B9BE97A1D48F762001D4CDC /* Taxe38DetailTableViewController.swift in Sources */,
+				5B9BE9621D48E594001D4CDC /* Rue.swift in Sources */,
+				5B9BE95A1D48E4E0001D4CDC /* Locale.swift in Sources */,
+				5B9BE9561D48E47F001D4CDC /* Commune.swift in Sources */,
+				5B9BE96E1D48E6CE001D4CDC /* TaxeBoisonTrimistrielle.swift in Sources */,
 				5BC6538A1D272A84007B16E3 /* ViewController.swift in Sources */,
+				5B9BE96C1D48E694001D4CDC /* TaxeBoisonAnuelle.swift in Sources */,
+				5B9BE9761D48E793001D4CDC /* Zone.swift in Sources */,
+				5B99D3F81D747BD1003B3329 /* TaxeBoissonAnnuellePdfViewer.swift in Sources */,
+				5B9BE94C1D48E385001D4CDC /* Activite.swift in Sources */,
+				5B8C9BB31D5017D700E6D0D3 /* LineChartSejourVC.swift in Sources */,
+				5B9BE94E1D48E3BA001D4CDC /* Categorie37.swift in Sources */,
 				5BC653881D272A84007B16E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BF020B01D513D9600029694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = 5BF020AF1D513D9600029694 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5BC6538B1D272A84007B16E3 /* Main.storyboard */ = {
@@ -253,8 +635,14 @@
 		};
 		5BC6539A1D272A84007B16E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F390D82023CD8A466C9D3935 /* Pods-taxes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Charts/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = taxes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ammach.taxes;
@@ -264,8 +652,14 @@
 		};
 		5BC6539B1D272A84007B16E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5690202014BA7750DF140F5 /* Pods-taxes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Charts/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = taxes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ammach.taxes;
@@ -292,6 +686,7 @@
 				5BC6539B1D272A84007B16E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
